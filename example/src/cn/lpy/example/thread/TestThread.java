@@ -8,5 +8,10 @@ public class TestThread {
 		new Thread(th,"窗口二").start();
 		new Thread(th,"窗口三").start();
 		new Thread(th,"窗口四").start();
+		say();
+	}
+	
+	public static void say(){
+		System.out.println("参加活动！！！");
 	}
 }
